@@ -10,7 +10,7 @@ from torchvision import transforms
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-parser = argparse.ArgumentParser(description='PyTorch dog vs cat Training')
+parser = argparse.ArgumentParser(description='PyTorch ISIC challenge Training')
 parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
 parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint')
 parser.add_argument('--batch-size', default=16, type=int, help='minibatch size')
